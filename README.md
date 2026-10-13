@@ -13,7 +13,7 @@
 <a href="https://www.linkedin.com/in/andres-junior-gamio-patricio-206267430/"><img src="https://img.shields.io/badge/LinkedIn-Andr%C3%A9s%20Gamio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:andres.gamio@unmsm.edu.pe"><img src="https://img.shields.io/badge/Correo-UNMSM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/></a>
 
-<br/><br/>
+<br/>
 
 <img src="https://img.shields.io/badge/UNMSM-FISI-8B1A1A?style=flat-square" alt="UNMSM FISI"/>
 <img src="https://img.shields.io/badge/Ciclo-8%C2%BA-1f6feb?style=flat-square" alt="8.º ciclo"/>
@@ -51,13 +51,20 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,maven,postman,vscode&theme=dark" alt="Git, GitHub, Maven, Postman, VS Code"/>
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel"/>
 </p>
 
-<sub><b>También he usado:</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=react,nodejs,php,powerbi&theme=dark" alt="React, Node.js, PHP, Power BI"/>
-<img src="https://img.shields.io/badge/Power%20Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white" alt="Power Automate"/>
-<img src="https://img.shields.io/badge/Power%20Query-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Power Query"/>
+<sub><b>También he usado:</b></sub>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,php&theme=dark" alt="React, Node.js, PHP"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Power Query"/>
+  <img src="https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white" alt="Power Automate"/>
+</p>
 
 ---
 
@@ -111,11 +118,10 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 
 ---
 
-## Estadísticas de GitHub
+## Lenguajes más usados
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Getaway2022&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb" alt="Estadísticas de GitHub"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Getaway2022&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff" alt="Lenguajes más usados"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Getaway2022&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&hide_title=true" alt="Lenguajes más usados"/>
 </p>
 
 ---
@@ -128,5 +134,3 @@ Si tienes una oportunidad de práctica o quieres colaborar en un proyecto, escr�
   <a href="mailto:andres.gamio@unmsm.edu.pe"><img src="https://img.shields.io/badge/Escribirme-andres.gamio%40unmsm.edu.pe-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/></a>
   <a href="https://www.linkedin.com/in/andres-junior-gamio-patricio-206267430/"><img src="https://img.shields.io/badge/Conectemos%20en-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" alt="" width="100%"/>
