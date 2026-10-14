@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./fondo.png" alt="Junior Gamio - Full Stack Developer" width="100%"/>
+<img src="./fondo.jpg" alt="Junior Gamio - Full Stack Developer" width="100%"/>
 
 <h3>Estudiante de Ingeniería de Sistemas · UNMSM</h3>
 
