@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=200&section=header&text=Junior%20Gamio&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Angular&descSize=18&descAlignY=60" alt="Junior Gamio - Full Stack Developer" width="100%"/>
+<img src="./fondo.png" alt="Junior Gamio - Full Stack Developer" width="100%"/>
 
 <h3>Estudiante de Ingeniería de Sistemas · UNMSM</h3>
 
