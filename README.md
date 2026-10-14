@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./fondo.jpg" alt="Junior Gamio - Full Stack Developer" width="100%"/>
+<img src="https://raw.githubusercontent.com/Getaway2022/Getaway2022/main/fondo.jpg" alt="Junior Gamio - Full Stack Developer" width="100%"/>
 
 <h3>Estudiante de Ingeniería de Sistemas · UNMSM</h3>
 
@@ -39,6 +39,7 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 - **Desarrollo de extremo a extremo:** APIs REST con Spring Boot, interfaces con Angular y modelado de datos en PostgreSQL.
 - **Seguridad básica de aplicaciones:** autenticación y autorización con JWT, y gestión de usuarios, roles y permisos.
 - **Visión de procesos de negocio:** modelamiento con BPMN, documentación de requerimientos y automatización de flujos.
+- **Despliegue:** aplicaciones en producción con Vercel, Railway y Neon, Docker y verificaciones automáticas con GitHub Actions.
 - **Trabajo en equipo:** metodologías ágiles y Scrum, control de versiones con Git y GitHub.
 
 ---
@@ -50,13 +51,13 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 </p>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,maven,postman,vscode&theme=dark" alt="Git, GitHub, Maven, Postman, VS Code"/>
+  <img src="https://skillicons.dev/icons?i=git,github,maven,postman,vscode,docker,vercel&theme=dark" alt="Git, GitHub, Maven, Postman, VS Code, Docker, Vercel"/>
 </p>
 
 <sub><b>También he usado:</b></sub>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,php&theme=dark" alt="React, Node.js, PHP"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,php&theme=dark" alt="React, Next.js, Node.js, PHP"/>
 </p>
 
 <p>
@@ -74,35 +75,40 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
   <tr>
     <td width="50%" valign="top" align="center">
       <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1f6feb&height=110&text=Sider%C3%BArgica%20ERP&fontSize=30&fontColor=ffffff" alt="Siderúrgica ERP" width="100%"/>
-      <h4>Caso Siderúrgica Perú · ERP</h4>
+      <h4>SIDERURGICA-ERP</h4>
       <p align="left">
-        Sistema de gestión empresarial que integra procesos antes manuales y repetitivos.
+        ERP académico para la gestión comercial, logística y de recursos humanos de una empresa siderúrgica.
       </p>
       <p align="left">
-        • Cotizaciones, pedidos y ventas, con datos reutilizados entre ellos<br/>
+        • Ventas, cotizaciones y pedidos con datos reutilizados<br/>
         • Inventario que se actualiza al aprobar pedidos<br/>
-        • Compras, proveedores y recursos humanos<br/>
-        • Usuarios, roles y permisos con JWT<br/>
-        • Generación de documentos PDF
+        • Despachos, abastecimiento y proveedores<br/>
+        • RR. HH.: asistencia y planillas<br/>
+        • Autenticación con JWT y roles
       </p>
-      <img src="https://skillicons.dev/icons?i=java,spring,angular,postgres&theme=dark" alt="Java, Spring Boot, Angular, PostgreSQL"/>
+      <img src="https://skillicons.dev/icons?i=angular,ts,java,spring,postgres&theme=dark" alt="Angular, TypeScript, Java, Spring Boot, PostgreSQL"/>
+      <br/><sub>Desplegado en Vercel, Railway y Neon</sub>
       <br/><br/>
-      <a href="https://github.com/Getaway2022/SIDERURGICA-ERP"><img src="https://img.shields.io/badge/Ver%20repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio SIDERURGICA-ERP"/></a>
+      <a href="https://siderurgica-erp.vercel.app"><img src="https://img.shields.io/badge/Ver%20demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver demo"/></a>
+      <a href="https://github.com/Getaway2022/SIDERURGICA-ERP"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio SIDERURGICA-ERP"/></a>
     </td>
     <td width="50%" valign="top" align="center">
       <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:8957e5&height=110&text=Nexo%20Store&fontSize=30&fontColor=ffffff" alt="Nexo Store" width="100%"/>
-      <h4>Nexo Store · tienda de tecnología y gaming</h4>
+      <h4>Nexo Store</h4>
       <p align="left">
-        Tienda virtual de teclados, mouse, memorias, monitores y accesorios. En desarrollo.
+        Tienda full-stack de productos tecnológicos y gaming, con panel de administración.
       </p>
       <p align="left">
-        • Catálogo de productos con precios y disponibilidad<br/>
-        • Carrito de compras y flujo de compra<br/>
-        • Panel administrativo con métricas de ventas
+        • Catálogo, carrito y favoritos<br/>
+        • Pedidos<br/>
+        • Panel administrativo de productos y pedidos<br/>
+        • Docker y verificaciones con GitHub Actions
       </p>
-      <img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript"/>
-      <br/><br/><br/>
-      <a href="https://github.com/Getaway2022/Nexo-Store"><img src="https://img.shields.io/badge/Ver%20repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio Nexo-Store"/></a>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,java,spring,postgres,docker&theme=dark" alt="Next.js, TypeScript, Java, Spring Boot, PostgreSQL, Docker"/>
+      <br/><sub>Desplegado en Vercel y Railway</sub>
+      <br/><br/>
+      <a href="https://nexo-store-roan.vercel.app"><img src="https://img.shields.io/badge/Ver%20tienda-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver tienda"/></a>
+      <a href="https://github.com/Getaway2022/Nexo-Store"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio Nexo-Store"/></a>
     </td>
   </tr>
 </table>
