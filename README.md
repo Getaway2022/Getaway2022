@@ -6,7 +6,7 @@
 
 <p>
   Construyo aplicaciones web completas, de la base de datos a la interfaz,<br/>
-  y me enfoco en automatizar procesos de negocio con software.
+  automatizo procesos y convierto datos de negocio en indicadores.
 </p>
 
 <a href="https://github.com/Getaway2022"><img src="https://img.shields.io/badge/GitHub-Getaway2022-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -30,7 +30,7 @@ Soy estudiante del 8.º ciclo de Ingeniería de Sistemas en la **Universidad Nac
 
 Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía el registro manual de información y ahora los módulos están integrados y los datos se reutilizan.
 
-**Busco una práctica preprofesional** en desarrollo de software, desarrollo Full Stack o automatización de procesos.
+**Busco una práctica preprofesional** en desarrollo de software, desarrollo Full Stack, análisis de datos o automatización de procesos.
 
 ---
 
@@ -39,7 +39,8 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 - **Desarrollo de extremo a extremo:** APIs REST con Spring Boot, interfaces con Angular y modelado de datos en PostgreSQL.
 - **Seguridad básica de aplicaciones:** autenticación y autorización con JWT, y gestión de usuarios, roles y permisos.
 - **Visión de procesos de negocio:** modelamiento con BPMN, documentación de requerimientos y automatización de flujos.
-- **Despliegue:** aplicaciones en producción con Vercel, Railway y Neon, Docker y verificaciones automáticas con GitHub Actions.
+- **Análisis de datos:** modelo en Power BI con medidas DAX sobre vistas SQL de solo lectura (ventas, cotizaciones e inventario), con datos de demostración.
+- **Despliegue:** aplicaciones en producción con Vercel, Render, Railway y Neon, Docker y verificaciones automáticas con GitHub Actions.
 - **Trabajo en equipo:** metodologías ágiles y Scrum, control de versiones con Git y GitHub.
 
 ---
@@ -51,7 +52,7 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 </p>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,maven,postman,vscode,docker,vercel&theme=dark" alt="Git, GitHub, Maven, Postman, VS Code, Docker, Vercel"/>
+  <img src="https://skillicons.dev/icons?i=git,github,maven,postman,vscode,docker,vercel,powerbi&theme=dark" alt="Git, GitHub, Maven, Postman, VS Code, Docker, Vercel, Power BI"/>
 </p>
 
 <sub><b>También he usado:</b></sub>
@@ -62,7 +63,6 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 
 <p>
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel"/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
   <img src="https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Power Query"/>
   <img src="https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white" alt="Power Automate"/>
 </p>
@@ -77,20 +77,23 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
       <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1f6feb&height=110&text=Sider%C3%BArgica%20ERP&fontSize=30&fontColor=ffffff" alt="Siderúrgica ERP" width="100%"/>
       <h4>SIDERURGICA-ERP</h4>
       <p align="left">
-        ERP académico para la gestión comercial, logística y de recursos humanos de una empresa siderúrgica.
+        ERP académico para la gestión comercial, logística y de recursos humanos de una empresa siderúrgica, con reporte de analítica en Power BI.
       </p>
       <p align="left">
         • Ventas, cotizaciones y pedidos con datos reutilizados<br/>
-        • Inventario que se actualiza al aprobar pedidos<br/>
-        • Despachos, abastecimiento y proveedores<br/>
-        • RR. HH.: asistencia y planillas<br/>
-        • Autenticación con JWT y roles
+        • Reserva de stock al aprobar pedidos; baja al enviar el despacho<br/>
+        • Solicitud de reposición automática por bajo stock<br/>
+        • Despachos, abastecimiento y RR. HH.<br/>
+        • Autenticación con JWT y roles<br/>
+        • Power BI: ventas, cotizaciones e inventario (datos de demostración)
       </p>
-      <img src="https://skillicons.dev/icons?i=angular,ts,java,spring,postgres&theme=dark" alt="Angular, TypeScript, Java, Spring Boot, PostgreSQL"/>
-      <br/><sub>Desplegado en Vercel, Railway y Neon</sub>
+      <img src="https://skillicons.dev/icons?i=angular,ts,java,spring,postgres,powerbi&theme=dark" alt="Angular, TypeScript, Java, Spring Boot, PostgreSQL, Power BI"/>
+      <br/><sub>Desplegado en Vercel, Render y Neon</sub>
+      <br/><sub>El backend es gratuito: la primera carga puede tardar unos 50 s</sub>
       <br/><br/>
       <a href="https://siderurgica-erp.vercel.app"><img src="https://img.shields.io/badge/Ver%20demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver demo"/></a>
       <a href="https://github.com/Getaway2022/SIDERURGICA-ERP"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio SIDERURGICA-ERP"/></a>
+      <a href="https://github.com/Getaway2022/SIDERURGICA-ERP#anal%C3%ADtica"><img src="https://img.shields.io/badge/Anal%C3%ADtica-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Ver analítica en Power BI"/></a>
     </td>
     <td width="50%" valign="top" align="center">
       <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:8957e5&height=110&text=Nexo%20Store&fontSize=30&fontColor=ffffff" alt="Nexo Store" width="100%"/>
