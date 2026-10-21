@@ -1,145 +1,147 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Getaway2022/Getaway2022/main/fondo.jpg" alt="Junior Gamio - Full Stack Developer" width="100%"/>
+# Nexo Store
 
-<h3>Estudiante de Ingeniería de Sistemas · UNMSM</h3>
+Tienda full-stack con Next.js, Spring Boot y PostgreSQL. Incluye catálogo, carrito, favoritos, pedidos y panel administrativo.
 
-<p>
-  Construyo aplicaciones web completas, de la base de datos a la interfaz,<br/>
-  automatizo procesos y convierto datos de negocio en indicadores.
-</p>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Spring%20Boot-Java%2017-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot, Java 17"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 
-<a href="https://github.com/Getaway2022"><img src="https://img.shields.io/badge/GitHub-Getaway2022-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/andres-junior-gamio-patricio-206267430/"><img src="https://img.shields.io/badge/LinkedIn-Andr%C3%A9s%20Gamio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:andres.gamio@unmsm.edu.pe"><img src="https://img.shields.io/badge/Correo-UNMSM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/></a>
+<br/><br/>
 
-<br/>
-
-<img src="https://img.shields.io/badge/UNMSM-FISI-8B1A1A?style=flat-square" alt="UNMSM FISI"/>
-<img src="https://img.shields.io/badge/Ciclo-8%C2%BA-1f6feb?style=flat-square" alt="8.º ciclo"/>
-<img src="https://img.shields.io/badge/Lima%2C%20Per%C3%BA-D91023?style=flat-square" alt="Lima, Perú"/>
-<img src="https://img.shields.io/badge/Disponible-pr%C3%A1cticas%20preprofesionales-2ea043?style=flat-square" alt="Disponible para prácticas preprofesionales"/>
+<a href="https://nexo-store-roan.vercel.app"><img src="https://img.shields.io/badge/Ver%20tienda-nexo--store--roan.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver tienda"/></a>
 
 </div>
 
 ---
 
-## Sobre mí
+## Aplicación desplegada
 
-Soy estudiante del 8.º ciclo de Ingeniería de Sistemas en la **Universidad Nacional Mayor de San Marcos (FISI)**. Desarrollo backend con **Java y Spring Boot**, frontend con **Angular**, y diseño bases de datos en **PostgreSQL**.
+- Tienda: [https://nexo-store-roan.vercel.app](https://nexo-store-roan.vercel.app)
+- API: [https://nexo-store-gfqu.onrender.com/api](https://nexo-store-gfqu.onrender.com/api)
+- Panel administrativo: [https://nexo-store-roan.vercel.app/admin/login](https://nexo-store-roan.vercel.app/admin/login)
 
-Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía el registro manual de información y ahora los módulos están integrados y los datos se reutilizan.
+El frontend Next.js está desplegado en Vercel. El backend Spring Boot está en Render (Docker, plan gratuito) y la base de datos PostgreSQL en Neon. Las credenciales administrativas se configuran como variables privadas en Render y no deben almacenarse en el repositorio.
 
-**Busco una práctica preprofesional** en desarrollo de software, desarrollo Full Stack, análisis de datos o automatización de procesos.
+> El backend está en el plan gratuito de Render: si estuvo inactivo, la primera carga puede tardar unos 50 segundos.
 
----
+## Funcionalidades
 
-## Qué puedo aportar
-
-- **Desarrollo de extremo a extremo:** APIs REST con Spring Boot, interfaces con Angular y modelado de datos en PostgreSQL.
-- **Seguridad básica de aplicaciones:** autenticación y autorización con JWT, y gestión de usuarios, roles y permisos.
-- **Visión de procesos de negocio:** modelamiento con BPMN, documentación de requerimientos y automatización de flujos.
-- **Análisis de datos:** modelo en Power BI con medidas DAX sobre vistas SQL de solo lectura (ventas, cotizaciones e inventario), con datos de demostración.
-- **Despliegue:** aplicaciones en producción con Vercel, Render, Railway y Neon, Docker y verificaciones automáticas con GitHub Actions.
-- **Trabajo en equipo:** metodologías ágiles y Scrum, control de versiones con Git y GitHub.
-
----
+- Catálogo de productos tecnológicos y gaming (teclados, mouse, memorias, monitores y accesorios).
+- Carrito de compras y favoritos.
+- Pedidos.
+- Panel administrativo: gestión de productos y pedidos.
+- Carga inicial de 64 productos de demostración.
+- Verificaciones automáticas (lint, build y pruebas) con GitHub Actions en cada push y pull request.
 
 ## Tecnologías
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,angular,ts,html,css,postgres&theme=dark" alt="Java, Spring Boot, Angular, TypeScript, HTML, CSS, PostgreSQL"/>
-</p>
+| Capa | Tecnologías | Despliegue |
+|---|---|---|
+| Frontend | Next.js, TypeScript | Vercel |
+| Backend | Java 17, Spring Boot | Render |
+| Datos | PostgreSQL | Neon |
+| Infraestructura | Docker Compose, GitHub Actions | |
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,maven,postman,vscode,docker,vercel,powerbi&theme=dark" alt="Git, GitHub, Maven, Postman, VS Code, Docker, Vercel, Power BI"/>
-</p>
+## Capturas
 
-<sub><b>También he usado:</b></sub>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,php&theme=dark" alt="React, Next.js, Node.js, PHP"/>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel"/>
-  <img src="https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Power Query"/>
-  <img src="https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white" alt="Power Automate"/>
-</p>
-
----
-
-## Proyectos destacados
-
-<table>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1f6feb&height=110&text=Sider%C3%BArgica%20ERP&fontSize=30&fontColor=ffffff" alt="Siderúrgica ERP" width="100%"/>
-      <h4>SIDERURGICA-ERP</h4>
-      <p align="left">
-        ERP académico para la gestión comercial, logística y de recursos humanos de una empresa siderúrgica, con reporte de analítica en Power BI.
-      </p>
-      <p align="left">
-        • Ventas, cotizaciones y pedidos con datos reutilizados<br/>
-        • Reserva de stock al aprobar pedidos; baja al enviar el despacho<br/>
-        • Solicitud de reposición automática por bajo stock<br/>
-        • Despachos, abastecimiento y RR. HH.<br/>
-        • Autenticación con JWT y roles<br/>
-        • Power BI: ventas, cotizaciones e inventario (datos de demostración)
-      </p>
-      <img src="https://skillicons.dev/icons?i=angular,ts,java,spring,postgres,powerbi&theme=dark" alt="Angular, TypeScript, Java, Spring Boot, PostgreSQL, Power BI"/>
-      <br/><sub>Desplegado en Vercel, Render y Neon</sub>
-      <br/><sub>El backend es gratuito: la primera carga puede tardar unos 50 s</sub>
-      <br/><br/>
-      <a href="https://siderurgica-erp.vercel.app"><img src="https://img.shields.io/badge/Ver%20demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver demo"/></a>
-      <a href="https://github.com/Getaway2022/SIDERURGICA-ERP"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio SIDERURGICA-ERP"/></a>
-      <a href="https://github.com/Getaway2022/SIDERURGICA-ERP#anal%C3%ADtica"><img src="https://img.shields.io/badge/Anal%C3%ADtica-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Ver analítica en Power BI"/></a>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:8957e5&height=110&text=Nexo%20Store&fontSize=30&fontColor=ffffff" alt="Nexo Store" width="100%"/>
-      <h4>Nexo Store</h4>
-      <p align="left">
-        Tienda full-stack de productos tecnológicos y gaming, con panel de administración.
-      </p>
-      <p align="left">
-        • Catálogo, carrito y favoritos<br/>
-        • Pedidos<br/>
-        • Panel administrativo de productos y pedidos<br/>
-        • Docker y verificaciones con GitHub Actions
-      </p>
-      <img src="https://skillicons.dev/icons?i=nextjs,ts,java,spring,postgres,docker&theme=dark" alt="Next.js, TypeScript, Java, Spring Boot, PostgreSQL, Docker"/>
-      <br/><sub>Desplegado en Vercel y Railway</sub>
-      <br/><br/>
-      <a href="https://nexo-store-roan.vercel.app"><img src="https://img.shields.io/badge/Ver%20tienda-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver tienda"/></a>
-      <a href="https://github.com/Getaway2022/Nexo-Store"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio Nexo-Store"/></a>
-    </td>
-  </tr>
-</table>
-
-<details>
-<summary><b>Otros repositorios</b></summary>
-<br/>
-
-- [**sistema-practicas**](https://github.com/Getaway2022/sistema-practicas): Sistema de Gestión de Prácticas Pre-Profesionales (JavaScript).
-- [**262DSMG1-Tarea1**](https://github.com/Getaway2022/262DSMG1-Tarea1): trabajo académico en Kotlin.
-
-</details>
-
----
-
-## Lenguajes más usados
+<!--
+Sube tus capturas reales a docs/ y descomenta este bloque:
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Getaway2022&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&hide_title=true" alt="Lenguajes más usados"/>
+  <img src="docs/catalogo.png" width="48%" alt="Catálogo"/>
+  <img src="docs/carrito.png" width="48%" alt="Carrito de compras"/>
 </p>
-
----
-
-## Contacto
-
-Si tienes una oportunidad de práctica o quieres colaborar en un proyecto, escríbeme:
-
 <p align="center">
-  <a href="mailto:andres.gamio@unmsm.edu.pe"><img src="https://img.shields.io/badge/Escribirme-andres.gamio%40unmsm.edu.pe-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/></a>
-  <a href="https://www.linkedin.com/in/andres-junior-gamio-patricio-206267430/"><img src="https://img.shields.io/badge/Conectemos%20en-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <img src="docs/admin-productos.png" width="48%" alt="Gestión de productos"/>
+  <img src="docs/admin-pedidos.png" width="48%" alt="Gestión de pedidos"/>
 </p>
+-->
+
+## Variables de producción
+
+Vercel requiere esta variable de tipo `Config`:
+
+```env
+NEXT_PUBLIC_API_URL=https://nexo-store-gfqu.onrender.com/api
+```
+
+El servicio del backend en Render requiere:
+
+```env
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://<host-de-neon>/<base_de_datos>?sslmode=require
+SPRING_DATASOURCE_USERNAME=<usuario-de-neon>
+SPRING_DATASOURCE_PASSWORD=<contraseña-de-neon>
+APP_JWT_SECRET=<secreto-aleatorio-de-al-menos-64-caracteres>
+APP_ADMIN_EMAIL=<correo-del-administrador>
+APP_ADMIN_PASSWORD=<contraseña-segura>
+APP_CORS_ALLOWED_ORIGINS=https://nexo-store-roan.vercel.app
+```
+
+La conexión a Neon usa SSL (`sslmode=require`); no publiques la cadena de conexión. `NEXT_PUBLIC_API_URL` debe terminar en `/api`. Después de modificar una variable `NEXT_PUBLIC_*`, es necesario volver a desplegar el frontend porque su valor se incorpora durante la compilación.
+
+## Desarrollo local
+
+Requisitos: Node.js 22 y Java 17.
+
+```powershell
+Copy-Item frontend/.env.example frontend/.env.local
+cd frontend
+npm.cmd ci
+npm.cmd run dev
+```
+
+En otra terminal:
+
+```powershell
+cd backend
+mvn spring-boot:run
+```
+
+Frontend: `http://localhost:3000`. API: `http://localhost:8080/api`.
+
+## Producción con Docker
+
+1. Copia `.env.example` como `.env`.
+2. Sustituye todos los valores de ejemplo por secretos aleatorios y el dominio real.
+3. No confirmes `.env` en Git.
+4. Ejecuta `docker compose up -d --build`.
+5. Comprueba `docker compose ps` y `curl http://localhost/api/health`.
+
+La base de datos no está expuesta a Internet. Los datos persisten en el volumen `postgres_data`.
+
+## Catálogo
+
+La primera ejecución sobre una base vacía carga 64 productos de demostración. Después se administran desde `/admin/products`; no se deben editar directamente en PostgreSQL ni en Oracle Cloud.
+
+El cargador inicial no modifica una base que ya contiene productos.
+
+## Verificación
+
+```powershell
+cd frontend
+npm.cmd run lint
+npm.cmd run build
+
+cd ../backend
+mvn test
+```
+
+GitHub Actions repite estas comprobaciones en cada push y pull request.
+
+## Documentación
+
+- [Despliegue en Oracle Cloud](docs/oracle-cloud-deploy.md)
+- [Contrato del backend](frontend/BACKEND_CONTRACT.md)
+- [Créditos de imágenes](frontend/CREDITS.md)
+
+## Autor
+
+**Andrés Junior Gamio Patricio** · Estudiante de Ingeniería de Sistemas, UNMSM
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-junior-gamio-patricio-206267430/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Getaway2022)
