@@ -39,7 +39,7 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 - **Desarrollo de extremo a extremo:** APIs REST con Spring Boot, interfaces con Angular y modelado de datos en PostgreSQL.
 - **Seguridad básica de aplicaciones:** autenticación y autorización con JWT, y gestión de usuarios, roles y permisos.
 - **Visión de procesos de negocio:** modelamiento con BPMN, documentación de requerimientos y automatización de flujos.
-- **Análisis de datos:** modelo en Power BI con medidas DAX sobre vistas SQL de solo lectura (ventas, cotizaciones e inventario), con datos de demostración.
+- **Análisis de datos:** modelo en Power BI con medidas DAX sobre vistas SQL de solo lectura (ventas, cotizaciones e inventario), con datos de demostración; y un análisis de fuga de clientes bancarios con SQL (CTEs y window functions), Python y Power BI sobre un dataset público.
 - **Despliegue:** aplicaciones en producción con Vercel, Render y Neon, Docker y verificaciones automáticas con GitHub Actions.
 - **Trabajo en equipo:** metodologías ágiles y Scrum, control de versiones con Git y GitHub.
 
@@ -58,7 +58,7 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 <sub><b>También he usado:</b></sub>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,php&theme=dark" alt="React, Next.js, Node.js, PHP"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,php,py&theme=dark" alt="React, Next.js, Node.js, PHP, Python"/>
 </p>
 
 <p>
@@ -113,6 +113,25 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
       <br/><br/>
       <a href="https://nexo-store-roan.vercel.app"><img src="https://img.shields.io/badge/Ver%20tienda-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver tienda"/></a>
       <a href="https://github.com/Getaway2022/Nexo-Store"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio Nexo-Store"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center">
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:2ea043&height=110&text=Bank%20Customer%20Churn%20Analysis&fontSize=30&fontColor=ffffff" alt="Bank Customer Churn Analysis" width="100%"/>
+      <h4>bank-customer-churn-analysis</h4>
+      <p align="left">
+        Análisis de fuga de clientes de un banco europeo (dataset público de Kaggle, 10 000 clientes) para identificar en qué segmentos se concentra la fuga y proponer acciones de retención.
+      </p>
+      <p align="left">
+        • Pipeline SQL: limpieza con controles de calidad, CTEs, window functions y Pareto de segmentos<br/>
+        • EDA en Python con hallazgos de negocio y limitaciones documentadas<br/>
+        • Dashboard de 2 páginas en Power BI con modelo estrella y medidas DAX<br/>
+        • Resultado: los clientes de 41-60 años son el 31 % de la cartera y concentran el 61 % de las fugas; el saldo en riesgo equivale al 24 % del saldo total
+      </p>
+      <img src="https://skillicons.dev/icons?i=postgres,py,powerbi,git,github&theme=dark" alt="PostgreSQL, Python, Power BI, Git, GitHub"/>
+      <br/><sub>Dataset público de un banco europeo, sin fechas; proyecto académico</sub>
+      <br/><br/>
+      <a href="https://github.com/Getaway2022/bank-customer-churn-analysis"><img src="https://img.shields.io/badge/Repositorio-181717?style=for-the-badge&logo=github" alt="Ver repositorio bank-customer-churn-analysis"/></a>
     </td>
   </tr>
 </table>
