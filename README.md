@@ -147,14 +147,6 @@ Mis proyectos buscan resolver problemas reales: sistemas donde antes se repetía
 
 ---
 
-## Lenguajes más usados
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Getaway2022&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&hide_title=true" alt="Lenguajes más usados"/>
-</p>
-
----
-
 ## Contacto
 
 Si tienes una oportunidad de práctica o quieres colaborar en un proyecto, escríbeme:
